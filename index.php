@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1>Book a taxi</h1>
+    <li href = "register.php">register now</li>
 </body>
 </html>
