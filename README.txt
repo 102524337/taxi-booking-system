@@ -1,1 +1,1 @@
-This is a taxi system. 
+This is a taxi system. Further documentation is written in the README.txt file. 
