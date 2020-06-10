@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body, html{
+    height: 100%;
+}
+body{
+    background-image: url(https://liveauroranetwork.com/wp-content/uploads/2020/02/Live-Aurora-Network-Page-Background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/**********Form part**********/
+.wrapper{
+    position: absolute;
+    right: 15%;
+    margin: 90px 20px 20px 20px;
+    max-width: 80%;
+    height: auto;
+    padding: 16px;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
+/*form_1 section*/
+.form1Wrapper p{
+    margin-top: 5px;
+}
+#submit1{
+    background-color: rgb(129, 196, 255);
+    width: 20%;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 19px;
+    border: none;
+    border-radius: 2px;
+}
+#submit1:hover{
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+
+/*form_2 section*/
+.form2Wrapper{
+    margin-top: 40px;
+    border-top: 1px solid rgba(26, 136, 233,0.4);
+    padding-top: 30px;
+}
+#refNum{
+    border: none;
+    width: 30%;
+    padding: 13px;
+    display: block;
+    margin-top: 7px;
+}
+#refNumLabel{
+    display: block;
+    margin-top: 28px;
+}
+#submit2{
+    display: block;
+    margin-top: 7px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(129, 196, 255);
+    width: 20%;
+    padding: 10px;
+    font-size: 19px;
+}
+#submit2:hover{
+    background-color: rgb(29, 28, 28);
+    color: white;
+}
+
+/******embedded php part******/
+.table{
+    margin-top: 20px;
+    padding-top: 15px;   
+}
+.phpWarningMsg{
+    color: red;
+}
+.phpSucMsg{
+    color: rgb(20, 20, 248);
+}
+/*table section*/
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+th,td{
+    padding: 5px;
+}
+th{
+    background-color: rgba(101, 177, 243, 0.8);        /*from there designing table figure */
+} 
+tr:nth-child(even) {
+    background-color: rgba(190, 210, 228, 0.59);
+}

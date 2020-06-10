@@ -1,0 +1,70 @@
+/*Form tag*/
+#form{
+    position: absolute;
+    right: 35%;
+    top: 200%;
+    margin: 150px 20px 20px 20px;
+    max-width: 400px;
+    padding: 16px;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
+
+/*input tags*/
+input{
+    border: none;
+    width: 100%;
+    padding: 13px;
+}
+label{
+    margin-top: 5px;
+    display: block;
+
+}
+
+.topic{
+    margin-top: 10px;
+}
+
+#loginLink{
+    margin-top: 20%;
+}
+
+#submit{
+    margin-top: 10px;
+    background-color: rgb(162, 191, 243);
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+#pageMover{
+    margin-top: 13px;
+    font-size: 13px;
+}
+
+/*embedded php*/
+.warningBackground{
+    background-color: aliceblue;
+    max-width: 380px;
+    position: absolute;
+    right:35%;
+    margin-top: 50px;
+
+}
+.warningMsgPhp{
+    color: rgb(245, 20, 20);
+    margin: 2px;
+
+}
+
+.redirecting{
+    margin-top: 5px;
+    animation: blink 1s linear infinite;
+    font-size: 25px;
+    color: black;
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+}

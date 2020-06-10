@@ -1,0 +1,73 @@
+/*Form tag*/
+#form{
+    position: absolute;
+    right: 38%;
+    margin: 2px 20px 20px 20px;
+    max-width: 400px;
+    height: auto;
+    padding: 16px;
+    background-color: aliceblue;
+    border-radius: 6px;
+}
+
+/*input tags*/
+input{
+    border: none;
+    width: 100%;
+    padding: 13px;
+    display: block;
+}
+label{
+    margin-top: 2px;
+    display: block;
+}
+
+.topic{
+    margin-top: 10px;
+}
+
+#submit{
+    margin-top: 10px;
+    background-color: rgb(162, 191, 243);
+    font-size: 19px;
+}
+#unitNumlabel{
+    margin-top: 10px;
+}
+.pickupAddress{
+    margin-top: 10px;
+    border-top: 1px solid rgba(162, 191, 243, 0.4);
+    padding-top: 13px;
+}
+.pickupBorder{
+    margin-top: 15px;
+    border-top: 1px solid rgba(162, 191, 243, 0.4);
+    padding-top: 8px;
+}
+
+/*embedded php*/
+.warningBackground{
+    background-color: aliceblue;
+    max-width: 380px;
+    width: 380px;
+    position: absolute;
+    right:4%;
+    margin-top: 50px;
+
+}
+.warningMsgPhp{
+    color: rgb(245, 20, 20);
+    margin: 2px;
+
+}
+
+.redirecting{
+    margin-top: 5px;
+    animation: blink 1s linear infinite;
+    font-size: 25px;
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+}

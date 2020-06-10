@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image: url(https://airqualitynews.com/wp-content/uploads/2019/09/taxi-4009617_960_720.jpg);
+    background-position: center;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    position: relative;
+}
