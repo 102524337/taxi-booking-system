@@ -34,7 +34,7 @@
     <input type="text" id="phone" class="regField" placeholder="Enter Phone Number" name="phone"/>
     <br>
     <input type="submit" value="Submit" name="submit" id="submit"/>
-    <h5 id="loginLink"><strong>Already Registered? <a href="https://taxibookingystem.herokuapp.com/register.php/login.php">Login Here</a></strong></h5>
+    <h5 id="loginLink"><strong>Already Registered? <a href="https://taxibookingystem.herokuapp.com/login.php">Login Here</a></strong></h5>
 </form>
 <!--embedded php-->
 <p class="php">
@@ -123,7 +123,7 @@ $conn = mysqli_connect(
                     <p>$errMsg</p><br>
                     <p >Please wait, Redirecting<span class ='redirecting'>.....</span></p>
                   </div>";
-            header("refresh:4 url=https://mercury.swin.edu.au/cos80021/s102524337/assignment1/register.php"); 
+            header("refresh:4 url=https://taxibookingystem.herokuapp.com/register.php"); 
             
         } else 
         {// execute registration logic here
@@ -143,13 +143,13 @@ $conn = mysqli_connect(
                             <p class='warningMsgPhp'>Your account is already registered!</p>
                             <p >Please wait, Redirecting<span class ='redirecting'>.....</span></p>
                          </div>";
-                    header("refresh:4 url=https://mercury.swin.edu.au/cos80021/s102524337/assignment1/register.php");
+                    header("refresh:4 url=https://taxibookingystem.herokuapp.com/register.php");
                 }else 
                 {   //proceed registration and forward email
                     $_SESSION['email'] = $email; 
                     $query = "INSERT INTO Customer (Email, Name, Password, Phone) Values ('$email', '$name', '$pwd','$phone')";
                     $customerInfo = mysqli_query($conn, $query);
-                    header("Location: https://mercury.swin.edu.au/cos80021/s102524337/assignment1/booking.php");//redirect to a booking.php page. 
+                    header("Location: https://taxibookingystem.herokuapp.com/booking.php");//redirect to a booking.php page. 
                     exit;
             
                 }
