@@ -245,8 +245,7 @@ if(isset($_GET["submit"]))
                 unset($_SESSION['email']);//unset session variable
                 session_destroy(); //destroy all sessions
                 echo "<div class ='warningBackground'>
-                        <h3>$result</h3>
-                        <h3>Something Went Wrong!</h3>
+                        <h3>Something Went Wrong! 1111</h3>
                         <p class='warningMsgPhp'>System has failed to store your information.<br> This can cause if you are <strong>NOT logged in or registered</strong>. 
                         <br>Sending you to Login page <span class='redirecting'>...</span> Redirecting <span class='redirecting'>.....</span>
                         </p>
