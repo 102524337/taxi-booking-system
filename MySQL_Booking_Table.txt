@@ -5,6 +5,7 @@ CREATE TABLE Booking (
 	phone VARCHAR(255) NOT NULL,
 	unit_number VARCHAR(255),
 	street_number VARCHAR(255) NOT NULL,
+	street_name VARCHAR(255) NOT NULL,
 	suburb VARCHAR(255) NOT NULL,
 	destination_suburb VARCHAR(255) NOT NULL,
 	pickup_date VARCHAR(255) NOT NULL,
