@@ -22,7 +22,7 @@
         <input type="password" name="password" placeholder="Enter Password" id="password"/>
 
         <input type="submit" value="Log in" name="submit" id="submit"/>
-        <h4 id="pageMover"><strong>New Member? <a href="https://mercury.swin.edu.au/cos80021/s102524337/assignment1/register.php">Register Now</a></strong></h4>
+        <h4 id="pageMover"><strong>New Member? <a href="https://taxibookingystem.herokuapp.com/register.php">Register Now</a></strong></h4>
     </form>
 
 </body>
@@ -67,14 +67,14 @@ if(isset($_GET['submit']))
                 echo "<div class='warningBackground'>
                         <p class='warningMsgPhp'>Successfully logged in! Redirecting you to booking page <span class ='redirecting'>.....</span></p>
                       </div>";
-                header("refresh:3 url = https://mercury.swin.edu.au/cos80021/s102524337/assignment1/booking.php");
+                header("refresh:3 url = https://taxibookingystem.herokuapp.com/booking.php");
                 exit;
             }elseif(mysqli_num_rows($emailResult)== 0)
             {//account does not exist
                 echo "<div class='warningBackground'>
                         <p class='warningMsgPhp'>Your email does not exist in the System. <br>Refreshing page <span class ='redirecting'>.....</span></p>
                       </div>";
-                header("refresh:3 url = https://mercury.swin.edu.au/cos80021/s102524337/assignment1/login.php");
+                header("refresh:3 url = https://taxibookingystem.herokuapp.com/login.php");
                 exit;
             }else
             {//email and password not matched
@@ -82,7 +82,7 @@ if(isset($_GET['submit']))
                         <p class='warningMsgPhp'>Email or Password does not match. 
                         Please try again or Register if you do not have your account.<br> Refreshing<span class ='redirecting'>.....</span></p>
                       </div>";
-                header("refresh:3 url = https://mercury.swin.edu.au/cos80021/s102524337/assignment1/login.php");
+                header("refresh:3 url = https://taxibookingystem.herokuapp.com/login.php");
                 exit;
             }
             mysqli_free_result($query);

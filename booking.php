@@ -250,7 +250,7 @@ if(isset($_GET["submit"]))
                         <br>Sending you to Login page <span class='redirecting'>...</span> Redirecting <span class='redirecting'>.....</span>
                         </p>
                      </div>";
-                header("refresh:4 url=https://mercury.swin.edu.au/cos80021/s102524337/assignment1/login.php");
+                header("refresh:4 url=https://taxibookingystem.herokuapp.com/login.php");
                 
             }else 
             {

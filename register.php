@@ -34,7 +34,7 @@
     <input type="text" id="phone" class="regField" placeholder="Enter Phone Number" name="phone"/>
     <br>
     <input type="submit" value="Submit" name="submit" id="submit"/>
-    <h5 id="loginLink"><strong>Already Registered? <a href="https://mercury.swin.edu.au/cos80021/s102524337/assignment1/login.php">Login Here</a></strong></h5>
+    <h5 id="loginLink"><strong>Already Registered? <a href="https://taxibookingystem.herokuapp.com/register.php/login.php">Login Here</a></strong></h5>
 </form>
 <!--embedded php-->
 <p class="php">
