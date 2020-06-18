@@ -240,12 +240,13 @@ if(isset($_GET["submit"]))
                             '$suburb','$DestSub','$pickupDate','$pickupTime','$generatedDate','$generatedTime', '$status')";
 
             $result = mysqli_query($conn, $query);
+            echo "<h1>result: $result</h1>";
             if(!$result)
             {   
                 unset($_SESSION['email']);//unset session variable
                 session_destroy(); //destroy all sessions
                 echo "<div class ='warningBackground'>
-                        <h3>Something Went Wrong! $result</h3>
+                        <h3>Something Went Wrong!</h3>
                         <p class='warningMsgPhp'>System has failed to store your information.<br> This can cause if you are <strong>NOT logged in or registered</strong>. 
                         <br>Sending you to Login page <span class='redirecting'>...</span> Redirecting <span class='redirecting'>.....</span>
                         </p>
