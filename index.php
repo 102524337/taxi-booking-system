@@ -7,10 +7,12 @@
     <title>Welcome to Taxi Service</title>
 </head>
 <body>
-    <nav>
-        <a href="register.php">register</a>
-        <a href="login.php">Log In</a>
-    </nav>
-    <div class="background-image"></div>
+    <div class="background-image">
+        <div class="border">
+            <h1 class="title">Welcome to Taxi Booking Service</h1>
+                <a href="register.php">register</a>
+                <a href="login.php">Log In</a>
+        </div>
+    </div>
 </body>
 </html>
