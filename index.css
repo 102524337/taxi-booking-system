@@ -13,9 +13,10 @@ body .background-image
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
-
+/*
 nav 
 {   
     text-align: center;
@@ -24,3 +25,4 @@ nav
     transform: translate(-50%, -50%);
     color: white;
 }
+*/
