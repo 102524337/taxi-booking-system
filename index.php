@@ -8,10 +8,10 @@
 </head>
 <body>
     <div class="background-image">
-        <nav>
+        <div>
             <a href="register.php">register</a>
             <a href="login.php">Log In</a>
-        </nav>
+        </div>
     </div>
 </body>
 </html>
